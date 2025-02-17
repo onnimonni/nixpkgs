@@ -47,7 +47,7 @@ Now that this is out of the way. To add a package to Nixpkgs:
 1. Checkout the Nixpkgs source tree:
 
    ```ShellSession
-   $ git clone https://github.com/NixOS/nixpkgs
+   $ git clone --depth 1 https://github.com/NixOS/nixpkgs
    $ cd nixpkgs
    ```
 
